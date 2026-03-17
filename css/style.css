@@ -1,0 +1,90 @@
+.main-logo{
+    height:100px;
+    width:auto;
+}
+.main-logo:hover {
+    opacity: 0.9;       
+    transform: scale(1.07);
+}
+.main-logo  {
+    transition: all 0.3s ease;
+}
+body {
+font-family: 'Poppins', sans-serif;
+background-color: #f8f9fa8e;
+}
+
+h1, h2 {
+font-family: 'Playfair Display', serif;
+}
+
+.hero {
+height: 80vh;
+background: linear-gradient(to right, #022c63, #030c5fc4);
+}
+.skill-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: white;
+}
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+.text-purple { color: #7952b3; }
+
+.project-card {
+transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+}
+
+.project-card:hover {
+transform: translateY(-10px);
+box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.navbar-brand {
+letter-spacing: 2px;
+}
+
+.btn-primary {
+background-color: #101216;
+border: none;
+}
+
+.btn-primary:hover {
+background-color: #87d6c4;
+color: #000;
+transition: 0.5s;
+}
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.project-card img {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    border-bottom: 1px solid #eee;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
+}
+
+.project-card:hover img {
+    transform: scale(1.1);
+}
+.nav-pills .nav-link.active {
+    background-color: #0dcaf0 !important;
+    color: #000 !important;
+}
+
+.nav-pills .nav-link {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+
+
